@@ -1,0 +1,104 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{53848A7A-57E5-42F4-A03E-497FF3160335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanteenBillingSystem.API", "src\CanteenBillingSystem.API\CanteenBillingSystem.API.csproj", "{0D427F50-12A9-4E85-ACB7-78BAAB622DE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E2FB2346-4A82-4D37-A744-FA0446CFF6B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanteenBillingSystem.Domain", "src\CanteenBillingSystem.Domain\CanteenBillingSystem.Domain.csproj", "{FE774E3D-9E13-48D7-ACCD-655D36F81060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanteenBillingSystem.Domain.UnitTests", "tests\CanteenBillingSystem.Domain.UnitTests\CanteenBillingSystem.Domain.UnitTests.csproj", "{0EC4224B-D134-482F-9D33-6DD7DD73DD11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanteenBillingSystem.Application", "src\CanteenBillingSystem.Application\CanteenBillingSystem.Application.csproj", "{25CC372F-4CBC-43A6-970F-DC4027F262F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{15BC765C-DF1C-4598-86F0-79337AE0ECA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTests", "IntegrationTests", "{E7771662-F7FC-4D1B-AD5D-CE70EEB423FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanteenBillingSystem.Api.UnitTests", "tests\CanteenBillingSystem.Api.UnitTests\CanteenBillingSystem.Api.UnitTests.csproj", "{7FC63806-BDB2-4795-80A7-9437038E4C6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanteenBillingSystem.IntegrationTests", "tests\CanteenBillingSystem.IntegrationTests\CanteenBillingSystem.IntegrationTests.csproj", "{43F9A684-B315-43E5-BD9E-C84F3610ED74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanteenBillingSystem.Infrastructure", "src\CanteenBillingSystem.Infrastructure\CanteenBillingSystem.Infrastructure.csproj", "{E67E62E6-6FE5-4A20-86A3-7589E5B9AD64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanteenBillingSystem.Application.UnitTests", "tests\CanteenBillingSystem.Application\CanteenBillingSystem.Application.UnitTests.csproj", "{468E0C36-DC3F-423B-A772-900088800218}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builders", "Builders", "{5136DE8E-6761-4612-A1B4-77B11C4ECBE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanteenBillingSystem.BuildersForTests", "tests\CanteenBillingSystem.BuildersForTests\CanteenBillingSystem.BuildersForTests.csproj", "{3138A1ED-C3D4-445C-94E1-18BF8E73CE04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "E2ETests", "E2ETests", "{1885D19B-B16E-409B-96AD-67D1532F41B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanteenBillingSystem.Api.E2ETests", "tests\CanteenBillingSystem.Api.E2ETests\CanteenBillingSystem.Api.E2ETests.csproj", "{C67E8382-6C82-42FA-AF5E-E1B74A2DAC32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D427F50-12A9-4E85-ACB7-78BAAB622DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D427F50-12A9-4E85-ACB7-78BAAB622DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D427F50-12A9-4E85-ACB7-78BAAB622DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D427F50-12A9-4E85-ACB7-78BAAB622DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE774E3D-9E13-48D7-ACCD-655D36F81060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE774E3D-9E13-48D7-ACCD-655D36F81060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE774E3D-9E13-48D7-ACCD-655D36F81060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE774E3D-9E13-48D7-ACCD-655D36F81060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EC4224B-D134-482F-9D33-6DD7DD73DD11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC4224B-D134-482F-9D33-6DD7DD73DD11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC4224B-D134-482F-9D33-6DD7DD73DD11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EC4224B-D134-482F-9D33-6DD7DD73DD11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25CC372F-4CBC-43A6-970F-DC4027F262F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25CC372F-4CBC-43A6-970F-DC4027F262F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25CC372F-4CBC-43A6-970F-DC4027F262F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25CC372F-4CBC-43A6-970F-DC4027F262F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FC63806-BDB2-4795-80A7-9437038E4C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC63806-BDB2-4795-80A7-9437038E4C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC63806-BDB2-4795-80A7-9437038E4C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC63806-BDB2-4795-80A7-9437038E4C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F9A684-B315-43E5-BD9E-C84F3610ED74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F9A684-B315-43E5-BD9E-C84F3610ED74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F9A684-B315-43E5-BD9E-C84F3610ED74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F9A684-B315-43E5-BD9E-C84F3610ED74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67E62E6-6FE5-4A20-86A3-7589E5B9AD64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67E62E6-6FE5-4A20-86A3-7589E5B9AD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67E62E6-6FE5-4A20-86A3-7589E5B9AD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67E62E6-6FE5-4A20-86A3-7589E5B9AD64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{468E0C36-DC3F-423B-A772-900088800218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{468E0C36-DC3F-423B-A772-900088800218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{468E0C36-DC3F-423B-A772-900088800218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{468E0C36-DC3F-423B-A772-900088800218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3138A1ED-C3D4-445C-94E1-18BF8E73CE04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3138A1ED-C3D4-445C-94E1-18BF8E73CE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3138A1ED-C3D4-445C-94E1-18BF8E73CE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3138A1ED-C3D4-445C-94E1-18BF8E73CE04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C67E8382-6C82-42FA-AF5E-E1B74A2DAC32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C67E8382-6C82-42FA-AF5E-E1B74A2DAC32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C67E8382-6C82-42FA-AF5E-E1B74A2DAC32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C67E8382-6C82-42FA-AF5E-E1B74A2DAC32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D427F50-12A9-4E85-ACB7-78BAAB622DE3} = {53848A7A-57E5-42F4-A03E-497FF3160335}
+		{FE774E3D-9E13-48D7-ACCD-655D36F81060} = {53848A7A-57E5-42F4-A03E-497FF3160335}
+		{0EC4224B-D134-482F-9D33-6DD7DD73DD11} = {15BC765C-DF1C-4598-86F0-79337AE0ECA6}
+		{25CC372F-4CBC-43A6-970F-DC4027F262F7} = {53848A7A-57E5-42F4-A03E-497FF3160335}
+		{15BC765C-DF1C-4598-86F0-79337AE0ECA6} = {E2FB2346-4A82-4D37-A744-FA0446CFF6B9}
+		{E7771662-F7FC-4D1B-AD5D-CE70EEB423FE} = {E2FB2346-4A82-4D37-A744-FA0446CFF6B9}
+		{7FC63806-BDB2-4795-80A7-9437038E4C6C} = {15BC765C-DF1C-4598-86F0-79337AE0ECA6}
+		{43F9A684-B315-43E5-BD9E-C84F3610ED74} = {E7771662-F7FC-4D1B-AD5D-CE70EEB423FE}
+		{E67E62E6-6FE5-4A20-86A3-7589E5B9AD64} = {53848A7A-57E5-42F4-A03E-497FF3160335}
+		{468E0C36-DC3F-423B-A772-900088800218} = {15BC765C-DF1C-4598-86F0-79337AE0ECA6}
+		{5136DE8E-6761-4612-A1B4-77B11C4ECBE9} = {E2FB2346-4A82-4D37-A744-FA0446CFF6B9}
+		{3138A1ED-C3D4-445C-94E1-18BF8E73CE04} = {5136DE8E-6761-4612-A1B4-77B11C4ECBE9}
+		{1885D19B-B16E-409B-96AD-67D1532F41B0} = {E2FB2346-4A82-4D37-A744-FA0446CFF6B9}
+		{C67E8382-6C82-42FA-AF5E-E1B74A2DAC32} = {1885D19B-B16E-409B-96AD-67D1532F41B0}
+	EndGlobalSection
+EndGlobal
